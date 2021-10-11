@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+h1 {
+    font-family: cursive;
+    color: red;
+    margin: 10px;
+}
+
+h2 {
+    font-family: cursive;
+    color: red;
+    margin: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+#reset {
+    background-color: blue;
+    border: solid 5px green;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#gameboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    border: solid 10px red;
+}
+
+img {
+    width: 200px;
+    cursor: pointer;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.modalcontainer {
+    align-self: center;
+    height: 400px;
+    width: 300px;
+    color: crimson;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    background: white;
+    border: solid 5px green;
+}
+
+#modalpic {
+    margin-left: 20px;
+    height: 90%;
+    justify-content: center;
+    background-image: url(images/alien-lego.png);
+    background-repeat: no-repeat;
+}
